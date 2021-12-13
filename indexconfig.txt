@@ -1,0 +1,14 @@
+# index.txt open and make the following settings
+
+Ranking in index.txt line(Line numbers on the left side):
+1.Web site url
+2.Web site category page url
+3.Main category(Folder name)
+4.Sub Category(Folder name)
+5.The feature that distinguishes the link from others(Example: Link and separating feature. L = u2088/camasir-makinesi-yedek-parca-/rezistanslar/vestel-camasir-makinesi-rezistansi-delikli.html, S = rezistanslar)
+6.Location of information to be taken from the product page(<h1 class="product-name">,<div id="aciklama">)
+7.Tag with stock number or stock status. If there is a tag, it is in stock, if it is not available, it returns as not available.(<div class="stock-amount">)
+8.A separator on the image link that can identify the product.(products)
+
+
+# When you complete the tags and criteria completely, the download will run smoothly.
