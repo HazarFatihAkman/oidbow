@@ -8,6 +8,19 @@ import re
 
 
 class Func():
+    def ReplaceDateTime(self,repString):
+        replaceDict = {
+        '"':'',
+        '(':'',
+        ')':''
+        }
+        newStr = ''
+        for c in repString:
+            if replaceDict.get(c) != None:
+                newStr = newStr + replaceDict[c]
+            else:
+                newStr = newStr + c
+        return newStr
     def ReplaceAll(self,repString):
         replaceDict = {
         'ı':'i',
